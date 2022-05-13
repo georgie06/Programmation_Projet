@@ -1,0 +1,31 @@
+##
+## EPITECH PROJECT, 2021
+## epitech
+## File description:
+## Makefile
+##
+
+SRC = 101pong.py
+
+NAME = 101pong
+
+
+all: $(NAME)
+
+
+$(NAME)	:	$(OBJ)	
+			cp $(SRC) ./$(NAME)
+			chmod 777 $(NAME)
+
+
+clean:
+	rm -f $(OBJ)
+	rm -f *#
+	rm -f *~
+
+fclean:
+	rm -f $(NAME) $(OBJ)
+
+re: fclean all
+
+.PHONY: re fclean clean all

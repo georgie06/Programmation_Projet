@@ -1,0 +1,23 @@
+/*
+** EPITECH PROJECT, 2021
+** epitech
+** File description:
+** strcmp
+*/
+#include <stdio.h>
+int my_strlen(char const *str);
+int my_strcmp(char const *s1, char const *s2)
+{
+    int l1 = my_strlen(s1);
+    int l2 = my_strlen(s2);
+    if (l1 == l2)
+        return 1;
+    else {
+        return 0;
+    }
+}
+int main(void) {
+    char const *s1 = "je suis mort";
+    char const *s2 = "je suis ";
+    printf("%i",my_strcmp(s1,s2));
+}

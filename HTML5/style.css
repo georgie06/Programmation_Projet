@@ -1,0 +1,443 @@
+
+ #intro {
+     color:white;
+     background-color: blue;
+ }
+ .first{
+     font-size: 200%;}
+ #intro2 .first2  em {
+     color:pink;
+     background-color: gray;
+
+ }
+ body {
+    color:red;
+    font-family: Arial;
+ }
+ /* Comment goes here */
+ p.serif {
+     font-family: "Times New Roman", 'Times New Roman', Times, serif;
+ }
+ p.sansserif {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ }
+ p.small {
+     font-size: small;
+ }
+ p.medium {
+     font-size: medium;
+ }
+ p.large {
+     font-size: large;
+ }
+ p.xlarge {
+     font-size: x-large;
+ }
+ h1 {
+     font-size: 20px;
+ }
+ p.italic {
+     font-style: italic;
+ }
+ p.normal {
+     font-style:normal;
+ }
+ p.italic {
+     font-style: italic;
+ }
+ p.oblique {
+     font-style:oblique;
+ }
+ p.light {
+     font-weight: lighter;
+ }
+ p.bold {
+     font-weight: bold;
+ }
+ p.bolder {
+     font-weight: bolder;
+ }
+ p.thick {
+     font-weight: bold;
+ }
+ p.thicker {
+     font-weight: 700;
+ }
+ p.normal {
+     font-variant: normal;
+ }
+ p.small {
+     font-variant: small-caps;
+ }
+
+ p.example {
+     color:green;
+ }
+ h1 {
+     color: #0000FF;
+ }
+ p.example {
+     color: rgb(255,0,0);
+ }
+ p.left {
+     text-align: left;
+ }
+ p.right {
+     text-align: right;
+ }
+ p.center {
+     text-align: center;
+ }
+ td.top {
+     vertical-align: top;
+ }
+ td.middle {
+     vertical-align: middle;
+ }
+ td.bottom {
+     vertical-align: bottom;
+ }
+ span.baseline {
+     vertical-align: baseline;
+ }
+ span.sub {
+     vertical-align: sub;
+ }
+ span.super {
+     vertical-align: super;
+ }
+ span.pixel {
+    vertical-align: -10px;
+ }
+ .main {
+     height: 150px;width: 400px;
+     background-color: lightskyblue;
+     display: inline-table;
+ }
+ .paragraph {
+     display:table-cell;
+     vertical-align: middle;
+ }
+ p.none {
+     text-decoration: none;
+ }
+ p.overline {
+     text-decoration: overline;
+ }
+ p.underline {
+     text-decoration: underline;
+ }
+ p.line-through {
+     text-decoration: line-through;
+ }
+ p {
+     text-indent: 60px;
+ }
+ h1 {
+     color:blue;
+     font-size: 30pt;
+     text-shadow: 5px 2px 4px grey;
+ }
+ h1 {
+     font-size: 20pt;
+     text-shadow: rgba(0,0,255,1) -1px -2px 0.5em;
+ }
+ p.capitalize {
+     text-transform: capitalize;
+ }
+ p.uppercase {
+     text-transform: uppercase;
+ }
+ p.lowercase {
+     text-transform: lowercase;
+ }
+ p.normal {
+     letter-spacing: normal;
+ }
+ p.positive {
+     letter-spacing: 4px;
+ }
+ p.positive {
+     letter-spacing: 4px;
+
+ }
+ p.negative {
+     letter-spacing: -1.5px;
+ }
+ p.normal {
+     word-spacing: normal;
+ }
+ p.px {
+     word-spacing:normal;
+ }
+ p.positive {
+     word-spacing: 20px;
+ }
+ P.negative {
+     word-spacing: -5px;
+ }
+ p {
+     white-space: nowrap;
+ }
+ p.pre {
+     white-space: pre;
+ }
+ p.preline {
+     white-space: pre-line;
+ }
+ p.prewrap {
+     white-space: pre-wrap;
+ }
+ p.test {
+     padding: 10px;
+     border: 5px solid green;
+ }
+ p.f1 {
+     padding: 10px;
+     border-style: solid;
+     border-width: 2px;
+ }
+ p.s1 {
+     padding: 10px;
+     border-style: solid;
+     border-width: 5px;
+ }
+ p.f2 {
+     padding: 10px;
+     border-style: solid;
+     border-width: 2px;
+     border-color: blue;
+ }
+ p.s2 {
+     padding: 10px;
+     border-style: solid;
+     border-width: 2px;
+     border-color: #FF6600;
+ }
+ p.t1 {
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0,153,0);
+ }
+ p.none{border-style: none;}
+ p.dotted{border-style: dotted;}
+ p.dashed{border-style: dashed;}
+ p.double{border-style: double;}
+ p.groove{border-style: groove;}
+ p.ridge{border-style: ridge;}
+ p.inset{border-style: inset;}
+ p.outset{border-style: outset;}
+ p.hidden{border-style: hidden;}
+ div.a {
+     border: 5px solid green;
+     width: 90px;
+     height: 90px;
+ }
+ div.b{
+     border: 5px solid green;
+     width: 100%;
+     height: 90px
+ }
+ p.test1 {
+     border: 5px solid green;
+     min-height: 100px;
+ }
+ p.test2 {
+     border: 5px solid green;
+     max-width: 100px;
+ }
+ body {
+     background-color: #C0C0C0;
+ }
+h1{
+    background-color: rgb(135,206,235);
+}
+p {
+    background-color: lightgreen
+}
+body {
+    background-image: url("css_logo.png");
+    background-color: #e9e9e9;
+}
+p{
+    padding: 30px;
+    background-image: url("background.jpg");
+    color: white;
+}
+body {
+    background-image: url("background5.jpeg");
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+}
+
+body{
+    background-image: url("bird.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    background-image: url("bird.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+ol.lower-alpha{
+    list-style-type: lower-alpha;
+}
+ul.circle{
+    list-style-type: circle;
+}
+ul.square {
+    list-style-type: square;
+}
+
+ul {
+    list-style-image: url(bird.png);
+    list-style-position: inside;
+}
+ul {
+    list-style: square outside none;
+ }
+
+ table {
+     border-collapse: separate;
+     border-spacing: 20px 40px;
+ }
+caption {
+  
+    caption-side: top;
+}
+table{
+    border-collapse: separate;
+    empty-cells: hide;
+}
+table {
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid gray;
+}
+td {
+    border: 1px solid gray;
+}
+table.auto {
+    table-layout: auto;
+}
+table.fixed {
+    table-layout: fixed;
+}
+a:hover {
+    color:red;
+}
+a.links {
+    text-decoration: none;
+}
+p {
+    cursor : crosshair;
+}
+span {
+    display:block;
+}
+
+div.hidden {
+    visibility: hidden;
+}
+p.pos_stat {
+    position: static;
+    top: 30px;
+    right: 5px;
+    color: red;
+
+}
+p.pos_fix {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
+
+}
+h1, p {
+    color: red;
+}
+img {
+    float: right;
+}
+p {
+    background-image: none;
+
+}
+/*1*/
+.floating {
+    float:right;
+}
+/*2*/
+.clearing {
+    clear:both;
+}
+/*3*/
+div {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    float: left;
+}
+/*4: auto - If overflow is clipped, a scroll-bar should be added to make it possible to see the rest of the content.
+hidden - The overflow is clipped, and the rest of the content will be invisible.
+-The text-shadow property allows you to set a shadow for the text.
+The line-height property sets the height of each line of text.
+*/
+div {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    float: left;
+    overflow: hidden; /*scolleur*/
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 3px 2px 3px red, 2px 2px 1px blue ;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin: 5px 10px 5px 10px;
+    border: 3px solid black;
+    position: static;
+}
+
+.box1 {
+    border: 3px solid red;
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: blue;
+    z-index: 3;
+
+}
+.box2{
+
+    border: 3px solid red;
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
+    z-index: 2;
+    box-sizing : border-box :/*elle se size auto*/
+    background-image : url('bird.png');
+    background-repeat : no-repeat;
+    background-position : center center;
+    background-size : contain /*cover = complitely and 
+    contain fit with the img*/
+
+}
+
+span {
+    display:block;
+}
+/*p {
+    display:inline
+} display en une ligne
+h1 {
+    display:none;
+} h1 est invisible */

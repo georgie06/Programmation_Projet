@@ -1,0 +1,44 @@
+<html>
+<head>
+<body>
+
+<p>
+<b>
+<br
+<span>
+<hr>
+align
+href
+bgcolor
+<i>
+<u>
+<h1>
+<ul>
+<OL>
+<li>
+<table>
+<tr>
+<td>
+<th>
+<colspan>
+<rowspan>
+<header> : header of a website is usually a section on the top of the page, which can include a logo, a name and other similar elements.
+<nav> : navigation bar includes links or buttons that lead to other pages of your website.
+<section>An article element can have different sections, and a section can include different articles. It all depends on the structure and content of your page.
+<article>
+<aside> : The <aside> element is used to define content that is not directly related to the main content but can provide additional information
+<footer> : A footer comes at the end of the page. It can contain links, copyright notes, etc., and is created using the <footer> tag:
+<main> : main content of the page is defined using the <main> tag, which can include various subsections represented by <article> and <section> tags
+<div>  : is a block level element and acts as a container for other elements.
+The form elements can have labels.
+To give an element a label, you first need to add an id attribute to it:
+<input type="text" id="name">
+Now we can create a <label> element and associate it with the id we created:
+<form>
+<label for="name">Name</label>
+<input type="text" id="name">
+</form>
+<select> : A drop-down lets users select one of multiple options. It can be created using the <select> element:
+<option> : Each option in the drop-down is an <option> element
+<button>
+<iframe> : Another way to embed videos to a page

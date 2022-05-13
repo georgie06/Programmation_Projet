@@ -1,0 +1,163 @@
+<!DOCTYPE HTML> 
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+
+        </header>
+    </form>
+    <p style="color:white; background-color:gray;">
+        certifications :
+    <a href="https://www.sololearn.com/Certificate/1139-19104597/jpg/" target="_blank">
+        <p>Python for finance : </p>
+    </a>
+    Compétences acquises:
+        <ul>
+        <li>Pandas</li>
+        <li>Matplotlib </li>
+       <li>scatter </li>
+        <li>Monte carlo </li>
+    </ul>
+        objectif: Faire en sorte de faire oe meilleur investissement possible.
+    </p> 
+    <a href=https://www.sololearn.com/Certificate/1014-19104597/jpg target="_blank">
+        <p>Html/Html5 : </p>
+    </a>
+    Compétences acquises: 
+            <ul>
+                <li>Maîtrise du language HTML.</li>
+            </ul>
+        </p>
+    </p>
+             <nav>
+            <ul>
+                <!-- represents a section of a page that links to other pages 
+                or to certain sections 
+                within the page. ! only the major page of the website-->
+                <li><a href="url">Home</a></li>
+            </ul>
+
+
+        </nav>
+        <div id="intro">
+            <p> This paragraph is in the intro section.</p>
+         </div>
+
+         <p> This paragraph is not in the intro section.</p>
+        <form>
+            Recherche sur le site :
+            <input id="mysearch" name="searchitem" type="search"/>
+        </form>
+        <form>
+            <label>your name : </label>
+            <input id="user" name=username type=text/>
+            <label>your e-mail : </label>
+            <!--placeholder=email@example.com--> 
+            <input type="text" name=email autofocus/>
+           
+        </form>
+        <form autocomplete="off">
+            <label>your e-mail : </label>
+            <!--placeholder=email@example.com--> 
+            <input name="Email" type="text" required/>
+            <input type="submit" value="Submit"/>
+        </form>
+        <canvas id="canvas1" 
+   width="400" height="300"></canvas> 
+
+   <script>
+      var can = document.getElementById("canvas1"); 
+      var ctx = can.getContext("2d");
+   </script>
+        <script>
+            function allowDrop(ev) {
+                ev.preventDefault();
+            }
+            
+            function drag(ev) {
+                ev.dataTransfer.setData("text", ev.target.id);
+            }
+            
+            function drop(ev) {
+                ev.preventDefault();
+                var data = ev.dataTransfer.getData("text");
+                ev.target.appendChild(document.getElementById(data));
+            }
+               </script>
+               </head>
+            <body>
+            
+               <div id="box" ondrop="drop(event)"
+               ondragover="allowDrop(event)"
+               style="border:1px solid black; 
+               width:200px; height:200px"></div>
+            
+               <img id="image" src="sample.jpg" draggable="true"
+               ondragstart="drag(event)" width="150" height="50" alt="" />
+        <article>
+            <!--Article is a self-contained, independent piece of content that can be used and distributed separately from the rest of the page or site.-->
+            <h1>Article title</h1>
+            <p> content article</p>
+            <p>independent piece of content</p>
+            <section>
+                <!-- divise en plusieurs section la page article-->
+                <h1>Heading</h1>
+                <p>content or image</p>
+            </section>
+
+            <aside>
+                <!--content which could be considered separate from but indirectly related to the main content.-->
+                <p>
+                    related to the main content
+                </p>
+            </aside>
+        </article>
+        <audio controls autoplay loop>
+            <source src="noaudio.mp3" type="audio/mpeg">
+            <source src="noaudio.mp3" type="audio/mpeg">
+            <!--creat a audio player-->
+            browsers do not support the audio element.
+
+
+        </audio>
+        <video controls autoplay loop>
+            <source src="novideo.mp4" type="video/mp4">
+            <source src="novideo.ogg" type="video/ogg">
+            <!--creat a audio player-->
+            browsers do not support the video element.
+
+
+        </video>
+        Status : <progress min="0" max="100" value="60">
+            <!-- using it with javascript for dynamically display-->
+        </progress>
+<!--STORAGE
+    sessionStorage()
+- localStorage() utilize wiyk javas api
+localStorage.setItem("key1", "value1");
+alert(localStorage.getItem("key1"));
+-->
+<!--GEOCALISATION API
+    navigator.geolocation.getCurrentPosition();
+
+-->
+<!--draw circle-->
+<img src="image.svg" alt="" height="300" />
+
+<svg width="1000" height="1000">
+    <circle cx="80" cy="80" r="50" fill="green"/>
+</svg>
+
+        <footer>
+            <!--Contact Information
+- Privacy Policy
+- Social Media Icons
+- Terms of Service
+- Copyright Information
+- Sitemap and Related Documents-->
+        </footer>
+    </body>
+</html>
