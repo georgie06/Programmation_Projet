@@ -1,3 +1,0 @@
-C
-int b = 0;
-printf("%i",d);
